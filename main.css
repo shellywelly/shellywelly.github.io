@@ -1,37 +1,25 @@
-body {
-	height: 100%;
-	margin: 0;
-	text-align: center;
-	width: 100%;
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: pink
 }
 
-h1 {
-  font-size: 32px;
-  font-family: Palatino, "platino Linotype", serif;
-color: rgb(46,105,163);
-	font-size: 32px;
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
 }
 
-h2 {
-	font-size: 56px;
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
 }
 
-
-.hero {
-  font-family:"Trebuchet MS",Helvetica, sans-serif;
-	padding: 250px 0;
-	margin: 30px;
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none;
 }
-
-
-p {
-  font-size: 2rem;;
-  text-decoration: none;
-
-}
-
-.hero a {
-	color: #00FFAA;
-	font-size: 1.25em;
-	text-decoration: none;
 }
